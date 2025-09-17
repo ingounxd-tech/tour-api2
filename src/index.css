@@ -1,0 +1,22 @@
+/* ใช้ Tailwind directives เพื่อดึงค่าพื้นฐานมาใช้ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* กำหนดสไตล์กลางให้กับทั้งเว็บ */
+body {
+  margin: 0;
+  font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* เปลี่ยนสีพื้นหลังให้ดูสบายตา */
+  background-color: #f8fafc; /* สีเทาอ่อนๆ จาก Tailwind (slate-50) */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
